@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+     
+}
+.scoreCard{
+    position: relative;
+    top: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#score{
+    
+    color: rgb(255, 217, 0);
+    font-size: 28px;
+}
+#highScore{
+     
+    color: rgb(0, 255, 42);
+    font-size: 28px;
+}
+#box{
+
+    height: 90vmin;
+    width: 90vmin;
+    color: black;
+    border: 2px solid aqua;
+    box-shadow: 0 0 10px aqua;
+    display: grid;
+    grid-template-rows: repeat(18,1fr);
+    grid-template-columns: repeat(18,1fr);
+    margin: auto;
+    margin-top: 1rem;
+    
+}
+
+.head{
+    background: aqua;
+    box-shadow: 0 0 15px aqua;
+    border-radius: 8px;
+    transition: all 0.4s;
+}
+.snake{
+    background: orange;
+    box-shadow: 0 0 12px orange;
+    border-radius: 12px;
+    transition: all 0.4s;
+}
+.food{
+    background: rgb(255, 33, 33);
+    box-shadow: 0 0 15px rgb(255, 33, 33);
+    border-radius: 15px;
+}
